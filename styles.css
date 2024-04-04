@@ -1,1 +1,93 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f7f7f7; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;}
+
+
+.container {width: 80%; margin: auto; padding-top: 50px; display: grid; place-items: center; min-height: 100vh; text-align: left; }
+  
+.callout {
+    border-left: 4px solid #dd2f11; 
+    background-color: #f3c7c9; 
+    padding: 8px; 
+    margin: 20px 0; 
+    color: #ca2626; 
+    text-align: left;
+  }
+  .card {
+    background-color: #fff;
+    width: 800px; 
+    border-radius: 8px;
+    box-shadow: 0 ;
+    overflow: hidden;
+}
+.card-header {
+background-color: #eee; 
+padding: 16px;
+color: #080808;
+font-size: 24px;
+font: bold;
+border-bottom: 1px solid #ddd;
+}
+.card-body {
+    padding: 16px;
+}
+.alert {
+    background-color: #ffcccc; 
+    color: #333;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 8px;
+}
+
+.input-group:last-child {
+    margin-right: 0;
+}
+
+.input-field, .dropdown, .message {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    height: 38px; 
+}
+
+.card-footer {
+    background-color: #eee; 
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-cancel, .btn-send {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-cancel {
+    background-color: #ccc; 
+    color: #333;
+}
+
+.btn-send {
+    background-color: #007bff; 
+    color: #fff;
+}
 
